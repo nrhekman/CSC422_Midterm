@@ -1,0 +1,10 @@
+
+Accuracy scores 
+| Metric            | No Change    | Everything   | No marriage no ratios | No Marriage  | No Education and no marriage | No marriage and no totals | No filtering 0 bills and no marriage |
+| ----------------- | ------------ | ------------ | --------------------- | ------------ | ---------------------------- | ------------------------- | ------------------------------------ |
+| **Train**         | 0.8118333333 | 0.8152486377 | 0.8161496546          | 0.8152915433 | 0.8153773544                 | 0.8155060711              | 0.8119583333                         |
+| **Test**          | 0.8076666667 | 0.8144842972 | 0.8137978377          | 0.8146559121 | 0.813282993                  | 0.8146559121              | 0.8085                               |
+| **Baseline**      | 0.779        | 0.783        | 0.783                 | 0.783        | 0.783                        | 0.783                     | 0.779                                |
+| **Test-Baseline** | 0.0286666667 | 0.0314842972 | 0.0307978377          | 0.0316559121 | 0.030282993                  | 0.0316559121              | 0.0295                               |
+
+My final model is no marriage and no totals which filters users who were never charged anything, normalizes the payment amount, and one hot encodes education.
