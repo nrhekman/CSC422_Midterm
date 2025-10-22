@@ -15,7 +15,7 @@ I used linear regression due to its interpretability, which makes it easier to e
 - **Source**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)  
 - **Records**: 30,000 clients  
 - **Features**: 23 (demographics, bill amounts, payments, etc.)  
-- **Target Variable**: `default.payment.next.month` (1 = default, 0 = no default)
+- **Target Variable**: `default payment next month` (1 = default, 0 = no default)
 
 ---
 
