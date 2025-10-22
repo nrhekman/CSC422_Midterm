@@ -54,15 +54,15 @@ To reproduce the results of this project:
 
 ##  Key Findings
 
-### 🔹 Coefficients
+###  Coefficients
 - **Age** had the greatest positive coefficient (**0.64**), meaning it had the strongest positive association with the likelihood of default.
 - **Limit Balance** had the second greatest impact with a negative coefficient (**-0.25**), indicating higher credit limits were associated with lower default risk.
 
-### 🔹 Accuracy
+###  Accuracy
 - The model consistently achieved around 81% accuracy.
 - This represented an improvement of about 3% over the baseline model.
 
-### 🔹 Confusion Matrix
+###  Confusion Matrix
 - The model was more likely to produce false negatives than false positives.
   - This means it was more likely to flag someone who defaulted as someone who was not going to rather than the other way around.
 
