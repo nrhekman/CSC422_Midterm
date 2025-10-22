@@ -64,6 +64,6 @@ To reproduce the results of this project:
 
 ###  Confusion Matrix
 - The model was more likely to produce false negatives than false positives.
-  - This means it was more likely to flag someone who defaulted as someone who was not going to rather than the other way around.
+  - This means it was more likely to flag someone who defaulted as someone who was not going to default, rather than the other way around.
 
 ---
